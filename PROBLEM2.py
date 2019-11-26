@@ -33,6 +33,6 @@ print('\n')
 
 # To display the number of cylinders and gear type of Mazda RX4 Wag,
 # Ford Pantera L, and Honda Civic
-print('Number of cyclinders and Gear Type of 3 Car Models: \n')
+print('Number of cylinders and Gear Type of 3 Car Models: \n')
 print(df.loc[[1,18,28], ['Model', 'cyl', 'gear']])
 print('\n')
